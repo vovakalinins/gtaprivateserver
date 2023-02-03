@@ -1,7 +1,0 @@
-C:\Users\ZipTop\source\repos\GTA PRIV\GTA PRIV\bin\Debug\GTA PRIV.exe.config
-C:\Users\ZipTop\source\repos\GTA PRIV\GTA PRIV\bin\Debug\GTA PRIV.exe
-C:\Users\ZipTop\source\repos\GTA PRIV\GTA PRIV\bin\Debug\GTA PRIV.pdb
-C:\Users\ZipTop\source\repos\GTA PRIV\GTA PRIV\obj\Debug\GTA PRIV.csproj.AssemblyReference.cache
-C:\Users\ZipTop\source\repos\GTA PRIV\GTA PRIV\obj\Debug\GTA PRIV.csproj.CoreCompileInputs.cache
-C:\Users\ZipTop\source\repos\GTA PRIV\GTA PRIV\obj\Debug\GTA PRIV.exe
-C:\Users\ZipTop\source\repos\GTA PRIV\GTA PRIV\obj\Debug\GTA PRIV.pdb
