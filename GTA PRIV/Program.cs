@@ -14,14 +14,14 @@ namespace GTA_PRIV
 
         static void Main(string[] args)
         {
-            Console.Title = "GTA V Private Session Joiner | By: Vortexx/ZipTop";
+            Console.Title = "GTA V Private Session Joiner";
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("Checking if GTA V is open...\n");
             Process[] pname = Process.GetProcessesByName("GTA5");
             if (pname.Length > 0)
             {
                 var pID = pname[0].Id;
-                Console.WriteLine($"GTA V Found! (pID: {pID}) Press Enter to Start Private Server...");
+                Console.WriteLine($"GTA V Found! (pID: {pID}) Press Enter to Join private lobby...");
                 Console.ReadKey();
                 Start:
                 Console.Clear();
@@ -30,20 +30,19 @@ namespace GTA_PRIV
                     Console.WriteLine("Pausing Process...");
                     var process = Process.GetProcessById(pID);
                     process.Suspend();
-                    Console.WriteLine("Process Paused! Finding Server...");
+                    Console.WriteLine("Process Paused! Unpausing soon...");
                     Thread.Sleep(10000);
                     process.Resume();
-                    Console.WriteLine("Joing Empty Server...");
+                    Console.WriteLine("Unpausing Server...");
                     Thread.Sleep(1000);
                     Console.Clear();
-                    Console.WriteLine("Empty Server Joined! Tabbing back in 1 second!\nMADE BY VORTEXX/ZIPTOP!\n\nPress Enter to Close Program or 'R' to Rejoin a Private Session");
+                    Console.WriteLine("Empty Server Joined! Tabbing back in 1 second!\n\nPress Enter to Close Program or 'R' to Rejoin a Private Session");
                     Thread.Sleep(1000);
                     SetForegroundWindow(pname[0].MainWindowHandle);
                     var key = Console.ReadKey().Key;
                     if (key== ConsoleKey.R)
                     {
-                        //System.Diagnostics.Process.Start(Application.ExecutablePath);
-                        //Environment.Exit(0);
+                        
                         goto Start;
                     }
                     else
