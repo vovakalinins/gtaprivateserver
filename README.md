@@ -20,7 +20,8 @@
 
 ## 🌟 Description
 
-This C# program is your ticket to hassle-free private sessions in **Grand Theft Auto V**. It automates the process of suspending and resuming the game, effectively moving you into an empty server.
+This C# program is designed to join a private session in Grand Theft Auto V. The program checks if GTA V is running on your system and suspends the game process momentarily to move you into an empty server. It's an automated way to enter a private session without going through the laborious manual steps.
+
 
 ---
 
